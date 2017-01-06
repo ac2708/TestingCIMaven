@@ -31,7 +31,7 @@ public class DemoOfMaven {
         driver.findElement(By.id("signIn")).click();
         driver.navigate().to("https://www.google.co.in/intl/en/options/");*/
             driver.navigate().back();
-            Assert.assertTrue(true);
+            Assert.assertTrue(false);
             driver.quit();
         }
         catch(Exception e)
